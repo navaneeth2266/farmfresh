@@ -22,12 +22,12 @@ import {
 
 export default function LiciousClone() {
   const categories = [
-    { name: "Chicken", image: "/placeholder.svg?height=120&width=120", count: "25+ items" },
-    { name: "Mutton", image: "/placeholder.svg?height=120&width=120", count: "18+ items" },
-    { name: "Fish & Seafood", image: "/placeholder.svg?height=120&width=120", count: "30+ items" },
-    { name: "Ready to Cook", image: "/placeholder.svg?height=120&width=120", count: "40+ items" },
-    { name: "Marinades", image: "/placeholder.svg?height=120&width=120", count: "15+ items" },
-    { name: "Eggs", image: "/placeholder.svg?height=120&width=120", count: "8+ items" },
+    { name: "Chicken", image: "/categories/chicken.jpg", count: "25+ items" },
+    { name: "Mutton", image: "/categories/mutton.jpg", count: "18+ items" },
+    { name: "Fish & Seafood", image: "/categories/seafood.jpg", count: "30+ items" },
+    { name: "Ready to Cook", image: "/categories/ready-to-cook.jpg", count: "40+ items" },
+    { name: "Marinades", image: "/categories/marinades.jpg", count: "15+ items" },
+    { name: "Eggs", image: "/categories/eggs.jpg", count: "8+ items" },
   ]
 
   const products = [
@@ -39,7 +39,7 @@ export default function LiciousClone() {
       weight: "500g",
       rating: 4.5,
       reviews: 1250,
-      image: "/chicken.png",
+      image: "/products/chicken-curry-cut.jpg",
       badge: "Bestseller",
       deliveryTime: "90 mins",
     },
@@ -51,7 +51,7 @@ export default function LiciousClone() {
       weight: "500g",
       rating: 4.3,
       reviews: 890,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/products/mutton-curry-cut.jpg",
       badge: "Premium",
       deliveryTime: "90 mins",
     },
@@ -63,7 +63,7 @@ export default function LiciousClone() {
       weight: "500g",
       rating: 4.6,
       reviews: 567,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/products/pomfret-fish.jpg",
       badge: "Fresh Catch",
       deliveryTime: "90 mins",
     },
@@ -75,7 +75,7 @@ export default function LiciousClone() {
       weight: "200g",
       rating: 4.4,
       reviews: 2100,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/products/chicken-seekh-kebab.jpg",
       badge: "Ready to Cook",
       deliveryTime: "90 mins",
     },
@@ -87,7 +87,7 @@ export default function LiciousClone() {
       weight: "250g",
       rating: 4.2,
       reviews: 445,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/products/large-prawns.jpg",
       badge: "Ocean Fresh",
       deliveryTime: "90 mins",
     },
@@ -99,7 +99,7 @@ export default function LiciousClone() {
       weight: "750g",
       rating: 4.7,
       reviews: 1890,
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/chicken.png",
       badge: "Chef's Special",
       deliveryTime: "90 mins",
     },
@@ -197,7 +197,7 @@ export default function LiciousClone() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="/chicken.png"
                 alt="Fresh meat and seafood"
                 width={500}
                 height={400}
